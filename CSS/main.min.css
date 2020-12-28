@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: #ddd;
+  position: relative;
+}
+
+body h1 {
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+body a.homebtn {
+  margin-right: 10px;
+}
+
+body .alert {
+  position: absolute;
+  width: 500px;
+  padding: 20px;
+  left: 50%;
+  margin-left: -250px;
+  top: 70px;
+  font-size: 1.2rem;
+  text-align: center;
+  z-index: 2;
+}
+
+body .alert button.close {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 30px;
+  outline: none;
+}
+
+body .alert-danger button.close {
+  color: #a31919;
+}
+
+body .alert-success button.close {
+  color: #178532;
+}
+
+body .input-group-text.bg-primary.text-light i {
+  margin: 5px;
+  font-size: 1.2rem;
+}
+
+body .d-flex button.btn {
+  padding: 0.7rem 1.7rem;
+  margin: 1rem;
+}
+
+body .d-flex button.btn i {
+  font-size: 1.2rem;
+}
+
+body .d-flex.table-data {
+  margin: 1rem auto;
+  padding: 0 5rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+body .d-flex.table-data table thead tr th {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+body .d-flex.table-data table .btnedit {
+  color: #7a99ff;
+  cursor: pointer;
+}
+
+body section.home {
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right bottom, from(#e6fa8f), to(#7cfdad));
+  background: linear-gradient(to bottom right, #e6fa8f, #7cfdad);
+  height: 100vh;
+  width: 100%;
+}
+
+body section.home .container {
+  margin-top: 200px;
+}
+
+body section.home .container h1.title {
+  margin-bottom: 50px;
+  font-family: "Josefin Slab", Roboto, sans-serif;
+  font-weight: 600;
+}
+
+body section.home .container .table-button {
+  margin: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}

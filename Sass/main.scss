@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: #ddd;
+  position: relative;
+
+  h1 {
+    margin-top: 10px;
+    font-weight: 400;
+  }
+  a.homebtn {
+    margin-right: 10px;
+  }
+
+  .alert {
+    position: absolute;
+    width: 500px;
+    padding: 20px;
+    left: 50%;
+    margin-left: -250px;
+    top: 70px;
+    font-size: 1.2rem;
+    text-align: center;
+    z-index: 2;
+
+    button.close {
+      background: none;
+      border: none;
+      position: absolute;
+      right: 30px;
+      outline: none;
+    }
+  }
+
+  .alert-danger button.close {
+    color: rgb(163, 25, 25);
+  }
+  .alert-success button.close {
+    color: rgb(23, 133, 50);
+  }
+
+  .input-group-text.bg-primary.text-light {
+    i {
+      margin: 5px;
+      font-size: 1.2rem;
+    }
+  }
+
+  .d-flex button.btn {
+    padding: 0.7rem 1.7rem;
+    margin: 1rem;
+
+    i {
+      font-size: 1.2rem;
+    }
+  }
+
+  .d-flex.table-data {
+    margin: 1rem auto;
+    padding: 0 5rem;
+    text-align: center;
+    border-radius: 5px;
+
+    table {
+      thead tr th {
+        font-weight: 500;
+        font-size: 1.1rem;
+      }
+
+      .btnedit {
+        color: rgb(122, 153, 255);
+        cursor: pointer;
+      }
+    }
+  }
+
+  section.home {
+    position: absolute;
+    background: linear-gradient(
+      to bottom right,
+      rgb(230, 250, 143),
+      rgb(124, 253, 173)
+    );
+    height: 100vh;
+    width: 100%;
+    .container {
+      margin-top: 200px;
+
+      h1.title {
+        margin-bottom: 50px;
+        font-family: "Josefin Slab", Roboto, sans-serif;
+        font-weight: 600;
+      }
+
+      .table-button {
+        margin: 10px;
+        font-size: 1.2rem;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+// body.home-page {
+//   background: linear-gradient(
+//     to bottom right,
+//     rgb(228, 210, 108),
+//     rgb(194, 197, 33)
+//   );
+// }
